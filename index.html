@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Seating Layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="row-el">
+        <p>Enter no of rows :</p>
+        <input class="rows-input" type="number">
+        <button class="rows-btn">generate</button> 
+    </div>
+    <div class="block-el">
+        <table id="table-details">
+            <thead>
+                <tr>
+                    <th>Row </th>
+                    <th>B1 </th>
+                    <th>B2 </th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+            </tbody>
+        </table>
+        <button id="layout-btn">generate layout</button>
+    </div>
+    <div id="seatContainer">
+        <div  id="seatContainer1"></div>
+        <div id="seatContainer2"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

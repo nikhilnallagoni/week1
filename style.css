@@ -1,0 +1,64 @@
+.row-el{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.rows-btn{
+    margin-left: 10px;
+    width: 70px;
+}
+.block-el{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+button{
+    height: 30px;
+    color: white;
+    background-color: rgb(71, 117, 233);
+    border: none;
+    border-radius: 5px;   
+    cursor: pointer;
+}
+#layout-btn{
+    width: 120px; 
+}
+
+.row-outer-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    align-items: flex-start;
+}
+
+.row-box{
+    border: 2px solid black;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px; 
+}
+
+#seatContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.seat {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: 2px solid black;
+
+}
